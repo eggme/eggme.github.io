@@ -107,7 +107,7 @@ pi[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 prefix 
 <br/>
 
 |i|부분 문자열|pi[i]|
-|:--:|:-------:|:--:|
+|--|-------|--|
 |0|A|0|
 |1|AB|0|
 |2|<font color="red">A</font>B<font color="blue">A</font>|1|
