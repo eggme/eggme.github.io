@@ -80,31 +80,31 @@ KMP알고리즘은 만든 사람이름이 Knuth, Morris, Prett이기 때문에 �
 
 #### 접두사(prefix)와 접미사(suffix)
 ---
-<apple의 접두사>  
-a  
-ap  
-app  
-appl  
-apple  
-
-이 5개가 apple의 접두사(prefix) 이다.
-<apple의 접미사>  
-e  
-le  
-ple  
-pple  
-apple  
-
-이 5개가 apple의 접미사(suffix) 이다.
+<apple의 접두사><br/>
+a  <br/>
+ap  <br/>
+app  <br/>
+appl  <br/>
+apple  <br/>
+<br/>
+이 5개가 apple의 접두사(prefix) 이다.<br/><br/>
+<apple의 접미사>  <br/>
+e  <br/>
+le  <br/>
+ple  <br/>
+pple  <br/>
+apple  <br/>
+<br/>
+이 5개가 apple의 접미사(suffix) 이다.<br/>
+  <br/>
   
   
-  
-__두번째로__ pi배열 이다.  
-pi[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 prefix == suffix가 될 수 있는 부분 문자열 중에서 가장 긴 것의 길이이다.  
-(이때 prefix가 0~i 까지의 부분 문자열과 같으면 안된다.)  
-
-문자열 "ABAABAB" 의 pi배열을 구하면 다음과 같다  
-
+<b>두번째로</b> pi배열 이다.  <br/>
+pi[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 prefix == suffix가 될 수 있는 부분 문자열 중에서 가장 긴 것의 길이이다.  <br/>
+(이때 prefix가 0~i 까지의 부분 문자열과 같으면 안된다.)  <br/>
+<br/>
+문자열 "ABAABAB" 의 pi배열을 구하면 다음과 같다  <br/>
+<br/>
 
 |i|부분 문자열|pi[i]|
 |:--:|:-------:|:--:|
