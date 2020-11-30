@@ -4,7 +4,6 @@ date: 2020-11-30 17:23:28 -0400
 categories: Algorithm Java
 ---
 ## KMP 알고리즘
----
 KMP 알고리즘은 대표적인 문자열 검색 알고리즘이다. 워드프로세서나 한글, 브라우저에서 Ctrl+F를 누르면 나오는 검색 기능은 바로 이 알고리즘을 사용하여 구현한 기능이다.
 
 #### 가장 단순한 문자열 검색
@@ -105,6 +104,8 @@ pi[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 prefix 
 (이때 prefix가 0~i 까지의 부분 문자열과 같으면 안된다.)  
 
 문자열 "ABAABAB" 의 pi배열을 구하면 다음과 같다  
+
+
 |i|부분 문자열|pi[i]|
 |:--:|:-------:|:--:|
 |0|A|0|
@@ -114,10 +115,4 @@ pi[i]는 주어진 문자열의 0~i 까지의 부분 문자열 중에서 prefix 
 |4|<font color="red">AB</font>A<font color="blue">AB</font>|2|
 |5|<font color="red">ABA</font><font color="blue">ABA</font>|3|
 |6|<font color="red">AB</font>AAB<font color="blue">AB</font>|2|
-
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
 
